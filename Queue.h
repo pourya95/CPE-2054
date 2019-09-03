@@ -19,7 +19,6 @@ typedef struct {                                // object data type
   uint8_t Idx;
 } MSGQUEUE_OBJ_t;    
 
-osMessageQueueId_t Btn_MsgQueue;
 
 void Queue_Initialize();
 void PutToQ(const void *  msg);

@@ -1,19 +1,6 @@
 
-#include <lpc17xx.h>
-
-#include "MyI2C.h"
-#include "TcaTlc.h"
-#include "TimerMutex.h"
-#include "Queue.h"
-#include "Func.h"
 #include "main.h"
 
-extern "C"
-{
-	#include <Driver_I2C.h>
-	#include <GPIO_LPC17xx.h>
-	#include <cmsis_os2.h>
-}
 
 int main()
 {

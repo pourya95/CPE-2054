@@ -14,7 +14,7 @@ extern "C"
 #include "MyI2C.h"
 #include "TimerMutex.h"
 #include "Queue.h"
-//#include "TcaTlc.h"
+#include "TcaTlc.h"
 #include "ExtInt.h"
 #include "main.h"
 

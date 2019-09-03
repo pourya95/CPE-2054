@@ -1,6 +1,7 @@
 
 #include "Queue.h"
 
+osMessageQueueId_t Btn_MsgQueue;
 
 void Queue_Initialize(){
 

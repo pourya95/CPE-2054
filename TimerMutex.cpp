@@ -6,6 +6,10 @@ int timerflag=0;
 int timerflag1=0;
 int timerflag2=0;
 
+osTimerId_t timerLed2_id;
+osTimerId_t timerLed1_id;
+osTimerId_t timerLed_id;
+
 void Timer_Initialize(){
 
 	timerLed2_id 	= osTimerNew(timerLed2, osTimerPeriodic, NULL, NULL);
